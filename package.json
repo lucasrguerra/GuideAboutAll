@@ -1,0 +1,36 @@
+{
+  "name": "guideaboutall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasrguerra/GuideAboutAll.git"
+  },
+  "keywords": [],
+  "author": "lucasrguerra",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/lucasrguerra/GuideAboutAll/issues"
+  },
+  "homepage": "https://github.com/lucasrguerra/GuideAboutAll#readme",
+  "dependencies": {
+    "@waylaidwanderer/chatgpt-api": "^1.10.2",
+    "axios": "^1.3.2",
+    "dotenv": "^16.0.3",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
