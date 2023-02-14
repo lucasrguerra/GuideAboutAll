@@ -20,6 +20,8 @@ export default function Index(props) {
       <br /><br />
 
       <Form />
+
+      <br /><br />
     </center>
   );
 }

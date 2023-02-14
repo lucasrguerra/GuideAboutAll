@@ -19,7 +19,7 @@ export default class Form extends Component {
       <div className="text-white w-11/12">
         <div>
           <label
-            className="font-bold text-2xl tracking-wider"
+            className="font-bold text-xl tracking-wider"
             htmlFor="theme"
           >
             Sobre o que você deseja saber?
@@ -35,7 +35,7 @@ export default class Form extends Component {
           <br /><br />
 
           <label
-            className="font-bold text-2xl tracking-wider"
+            className="font-bold text-xl tracking-wider"
             htmlFor="focus"
           >
             Quer focar em algo específico <br />
@@ -52,7 +52,7 @@ export default class Form extends Component {
           <br /><br />
 
           <label
-            className="font-bold text-2xl tracking-wider"
+            className="font-bold text-xl tracking-wider"
             htmlFor="number_of_topics"
           >
             Quantos tópicos?
@@ -121,7 +121,7 @@ export default class Form extends Component {
                 const blob_url = URL.createObjectURL(new Blob([this.state.data], { type: "text/plain" }));
                 const link = document.createElement("a");
                 link.href = blob_url;
-                link.setAttribute("download", "data.txt");
+                link.setAttribute("download", `${this.state.theme}.txt`);
                 document.body.appendChild(link);
                 link.click();
                 link.remove();

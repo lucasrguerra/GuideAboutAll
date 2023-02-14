@@ -15,7 +15,6 @@ export default async function getData(request, response) {
     data.theme = theme;
     data.focus = focus;
 
-
     response.status(200).json({ txt: organizeDataInTxt(data) });
   } else {
     response.status(405).json({ message: 'Method not allowed' })
